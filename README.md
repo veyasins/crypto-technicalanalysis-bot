@@ -6,7 +6,7 @@ This bot allows the price and indicators to be displayed instantly on all coins 
 # Supported Indicators
 
 - Relative Strength Index (RSI)  
-- Moving average convergence divergence (MACD)  
+- Moving Average Convergence Divergence (MACD)  
 - MFI(Money Flow Index)  
 - Money Flow Index (MFI)  
 - Commodity Channel Index (CCI)  
