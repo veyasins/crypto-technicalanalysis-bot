@@ -33,9 +33,9 @@ This bot allows the price and indicators to be displayed instantly on all coins 
 # Installing
 
 Get a Telegram API Key and Binance API Key (they are free).  
-Open file named .env with any text editor and paste your Telegram API Key like this  
+Open file named telegram-api.txt with any text editor and paste your Telegram API Key like this  
 ```sh
-API_KEY = yourkey
+yourkey
 ```
 then open another file named binance-api.txt and paste your Binance API Key skip to bottom line and paste your Binance Secret Key.  
 
