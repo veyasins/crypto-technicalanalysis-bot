@@ -1,5 +1,5 @@
 # crypto-ta-bot
-Crypto Technical Analysis Bot for Telegram
+Crypto Technical Analysis Bot for Telegram  
 
 This bot allows the price and indicators to be displayed instantly on all coins on Binance with using Binance API.
 
@@ -38,7 +38,8 @@ Open file named .env with any text editor and paste your Telegram API Key like t
 API_KEY = yourkey
 ```
 then open another file named binance-api.txt and paste your Binance API Key skip to bottom line and paste your Binance Secret Key.  
-It must be look like this
+
+It must be look like this:
 ```sh
 API Key
 Secret Key
