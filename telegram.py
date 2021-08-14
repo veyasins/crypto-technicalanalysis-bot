@@ -4,8 +4,10 @@ import talib as ta
 import numpy as np
 import os 
 
-API_KEY = os.getenv('API_KEY')
-bot = telebot.TeleBot(API_KEY)
+with open('telegram-api.txt') as api:
+    api_key = api.read()
+    
+bot = telebot.TeleBot(api_key)
 
 class Trader:
     def __init__(self, file):
