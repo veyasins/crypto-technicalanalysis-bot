@@ -2,7 +2,6 @@ import telebot
 from binance.client import Client
 import talib as ta
 import numpy as np
-import os 
 
 with open('telegram-api.txt') as api:
     api_key = api.read()
@@ -21,6 +20,7 @@ class Trader:
 
 filename = 'binance-api.txt'
 trader = Trader(filename)
+exchange_info = trader.client.get_exchange_info()
 
 @bot.message_handler(commands=['commands'])
 def commands(message):
@@ -33,8 +33,21 @@ def start(message):
 @bot.message_handler(commands=['intervals'])
 def intervals(message):
     bot.send_message(message.chat.id, ('*Valid Intervals:*' '\n''1m''\n' '3m''\n' '5m''\n' '15m' '\n''30m''\n' '1h''\n' '2h''\n' '4h''\n' '6h''\n' '8h''\n' '12h''\n' '1d''\n' '3d''\n' '1w''\n''1M'),parse_mode="Markdown")
-        
-@bot.message_handler(commands=["indicator"])
+
+def checker(message):
+    coinname = message.text.split()[1].upper()
+    wordcount = len(message.text.split())
+    command = message.text.split()[0].lower()
+    time = message.text.split()[2]
+    intervals = ['1m' , '3m', '5m' , '15m' , '30m' , '1h' , '2h' , '4h' , '6h' , '8h' , '12h' , '1d' , '3d' , '1w' , '1M']
+
+    for s in exchange_info['symbols']:
+        if coinname == (s['symbol']) and wordcount == 3 and command == '/indicator' and time in intervals:
+            return True
+        else:
+            pass
+
+@bot.message_handler(func=checker)
 def send_price(message):
     crypto = message.text.split()[1].upper()
     time = message.text.split()[2].lower()
