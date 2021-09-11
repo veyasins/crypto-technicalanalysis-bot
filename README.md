@@ -11,10 +11,10 @@ This bot allows the price and indicators to be displayed instantly of all coins 
 - Money Flow Index (MFI)  
 - Commodity Channel Index (CCI)  
 - Bollinger Bands  
-- Exponential Moving Average (EMA)  
 - Simple Moving Average (SMA)  
 - Williams %R (%R)  
 - Stochastic RSI (STOCH RSI)  
+- Average Directional Movement Index (ADX)  
 
 # Commands
 
@@ -25,7 +25,7 @@ This bot allows the price and indicators to be displayed instantly of all coins 
 ![Ekran görüntüsü 2021-08-14 225605](https://user-images.githubusercontent.com/15037280/129459774-06678a33-90a8-4bf0-92dd-0a3d271e84eb.png)
 
 /indicator  
-![Ekran görüntüsü 2021-08-14 234545](https://user-images.githubusercontent.com/15037280/129459762-9c6c391c-d1d2-439d-a7c4-9f68d27d0898.png)
+![Ekran görüntüsü 2021-09-11 225807](https://user-images.githubusercontent.com/15037280/132960253-203543bf-1fad-4c20-ae01-f76a51f2b0d1.png)
 
 /intervals  
 ![Ekran görüntüsü 2021-08-14 234530](https://user-images.githubusercontent.com/15037280/129459770-25707cdc-0318-4d51-bb64-098e17551ba3.png)
