@@ -24,7 +24,7 @@ This bot allows the price and indicators to be displayed instantly of all coins 
 ![Ekran görüntüsü 2021-08-14 225605](https://user-images.githubusercontent.com/15037280/129459774-06678a33-90a8-4bf0-92dd-0a3d271e84eb.png)
 
 /indicator  
-![Ekran görüntüsü 2021-09-11 225807](https://user-images.githubusercontent.com/15037280/132960306-cf8ee5ba-00ca-4efb-b87e-04a572d6270c.png)
+![Ekran görüntüsü 2021-09-11 225807](https://user-images.githubusercontent.com/15037280/132960949-068d0110-fdca-4e71-ac9e-8a136aba3cba.png)
 
 /intervals  
 ![Ekran görüntüsü 2021-08-14 234530](https://user-images.githubusercontent.com/15037280/129459770-25707cdc-0318-4d51-bb64-098e17551ba3.png)
